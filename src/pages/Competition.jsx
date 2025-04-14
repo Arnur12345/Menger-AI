@@ -297,6 +297,7 @@ const Competition = () => {
     timePerQuestion: []
   });
   const [chartsReady, setChartsReady] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   useEffect(() => {
     if (competitionId) {
